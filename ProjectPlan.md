@@ -24,7 +24,7 @@ Sam: Acquisition & Ethics
 Helen: Quality & Cleaning
 - NOAA acquisition, pre and post-integration quality checks, cleaning scripts
   
-[name]: Analysis & Documentation
+Yash: Analysis & Documentation
 - Schema design, integration scripts, analysis, metadata/data dictionary, final report
 
 ## Research Questions
@@ -112,6 +112,8 @@ Anyone should be able to download our repo and run it without changing anything.
 - Set up repo folders and submit the project-plan release (Lucas)
 - Write FRED and FEMA dataset descriptions and review terms of use (Sam)
 - Write NOAA dataset description and quality/cleaning constraints (Helen)
+- Revise, tag, and submit report, ensuring rubric sections are met within the project plan (Yash)
+- Write timeline and explore further gaps (Yash)
 ### By status report (11/19/2026)
 - Set up Snakefile and requirements.txt (Lucas)
 - Connect download scripts to the workflow (Lucas)
@@ -122,14 +124,20 @@ Anyone should be able to download our repo and run it without changing anything.
 - Write acquire_noaa.py to download the NOAA temperature file (Helen)
 - Write assess_raw_quality.py to check all three sources before joining (Helen)
 - Write cleaning scripts for FRED, NOAA, and FEMA (Helen)
+- Writer down and summarize challenges and problems we have encountered, as well as how we went about solving them (Yash)
+- Update the timeline to reflect adaptable deadlines and changing scopes (Yash)
+- Begin exploring modeling methods and correlation analysis for final submission (Yash)
 
 ### By final (12/08/2026)
+- Write project code (Yash & Sam)
 - Get the whole project running with one command (Lucas)
 - Write the reproducing steps in the README (Lucas)
 - Final fresh-copy test and submit the final-project release (Lucas)
 - Check that raw file checksums still match on a fresh copy (Sam)
 - Write the data sources and ethics section of the README and final report (Sam)
 - Write assess_integrated_quality.py and save the quality report in results/ (Helen)
+- Revise and submit all required deliverables (Yash)
+- Ensure project aligns with rubric expectations (Yash)
 
 ## Constraints
 - OpenFEMA data is updated continuously, so downloading it later might give a different file. We’ll save the copy we use in the repo, record the exact date we downloaded it, and include its checksum so anyone can confirm they’re using the same file.
@@ -137,8 +145,12 @@ Anyone should be able to download our repo and run it without changing anything.
 - The FEMA file has one row per county, not per disaster, and it includes non-weather events like COVID-19 (about 7,900 rows) and U.S. territories. We'll need to filter these out and combine rows before joining.
 - NOAA doesn't have data for Hawaii or DC, and Alaska only starts in 1925. The temperature question (RQ1) will cover 49 states, while the disaster question (RQ2) can include all 50 plus DC.
 - The three sources end at different months, and the most recent numbers from FRED and NOAA are early estimates that can change later. NOAA also marks missing months with -99.90. We'll cut all sources to the same end month and treat -99.90 as missing.
+- Average temperatures vary greatly in the U.S. by state, so using historical averages for that state may be better
+- FEMA declaration timings matter, so this may need to be adjusted
 
 ## Gaps
 
 - None of us have used Snakemake on a full project before. We may need help from the TAs or professor to get the workflow running.
 - Our team has both Windows and Mac computers. The scripts could run for one person and not work for another. We'll need to test the workflow on both before each submission.
+- There may be data issues that we have not yet discovered, along with hidden correlations and potentially non-causal variables that could confound our analysis
+- Employment could change because of unrelated economic conditions that we need to adjust and account for, this is essential to a clean analysis, so we are seeking reccommendations as to how to approach this
