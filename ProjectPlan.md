@@ -18,10 +18,10 @@ Lucas: Team Lead / Workflow & Reproducibility
 - Declare dependencies (requirements.txt with pinned versions) and maintain the reproducing instructions
 - Test the full pipeline on a fresh clone before each release, manage project-plan, status-report, and final-project releases
   
-[name]: Acquisition & Ethics
+Sam: Acquisition & Ethics
 - FRED and OpenFEMA acquisition scripts, review terms of use and licensing
   
-[name]: Quality & Cleaning
+Helen: Quality & Cleaning
 - NOAA acquisition, pre and post-integration quality checks, cleaning scripts
   
 [name]: Analysis & Documentation
@@ -36,6 +36,33 @@ Lucas: Team Lead / Workflow & Reproducibility
 3. Do these associations differ by season or by region?
 
 ## Datasets
+
+### FRED: State Unemployment Rate and Total Nonfarm Employment
+- **Source/URL:** https://fred.stlouisfed.org
+- **Publisher:** Federal Reserve Bank of St. Louis, which republishes data originally produced by the U.S. Bureau of Labor Statistics (LAUS and CES programs)
+- **Format:** CSV, downloaded from public download link (no API key needed)
+- **Size:** Two series for each of the 50 states plus DC, monthly. Roughly 440 rows per series from 1990 on
+- **Years covered:** Unemployment rate from 1976; nonfarm employment from 1990. Our analysis window starts in 1990 when both are available.
+- **License/terms:** The BLS series are labeled public domain on FRED, with citation requested ("Source: U.S. Bureau of Labor Statistics, retrieved from FRED"). FRED's own terms limit storing and redistributing FRED content, so we will confirm each series' label before committing it (see Constraints).
+- **Join:** Each series ID maps to a state through build_state_id_map.py. Joined on state + year-month.
+
+### OpenFEMA: Disaster Declarations Summaries (v2)
+- **Source/URL:** https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2
+- **Publisher:** Federal Emergency Management Agency (FEMA), U.S. Department of Homeland Security
+- **Format:** CSV, about 24 MB
+- **Size:** 70,571 rows covering 5,283 disasters. Each row is one declared county or area within a disaster, not one disaster.
+- **Years covered:** Declarations from May 1953 to October 2026 (as of our 10/2026 download)
+- **License/terms:** Public data under the OpenFEMA Terms and Conditions. We must cite the dataset URL and our download date, include the statement "This product uses the Federal Emergency Management Agency's OpenFEMA API, but is not endorsed by FEMA," and not use FEMA logos.
+- **Join:** Joined on the `state` column (two-letter code, also `fipsStateCode`) + year-month taken from `incidentBeginDate`. County rows are aggregated to state-month.
+
+### NOAA NCEI: Statewide Average Temperature (nClimDiv)
+- **Source/URL:** https://www.ncei.noaa.gov/pub/data/cirs/climdiv/ (file climdiv-tmpcst, statewide monthly average temperature)
+- **Publisher:** NOAA National Centers for Environmental Information (NCEI). Citation: Vose, R. S., et al. (2014), NOAA Monthly U.S. Climate Divisional Database (NClimDiv), doi:10.7289/V5M32STR
+- **Format:** Fixed-width text file. Each line is one state and one year, with 12 monthly values in degrees Fahrenheit. This replaces the single-state, single-month Climate at a Glance export currently in the repo (data.csv).
+- **Size:** 49 states (the contiguous 48 plus Alaska) times about 130 years, roughly 6,400 lines or about 77,000 state-months
+- **Years covered:** 1895 to present for the contiguous states. Alaska starts in 1925. Hawaii and DC are not included.
+- **License/terms:** U.S. government data, free to use. NOAA makes no warranty about accuracy, and users are responsible for judging fitness for use. We will cite the dataset DOI.
+- **Join:** NOAA uses its own state codes (001 = Alabama through 048 = Wyoming alphabetically, 050 = Alaska), which build_state_id_map.py maps to state abbreviations. Joined on state + year-month after reshaping the 12 monthly columns into one row per month.
 
 ## Workflow, Storage & Reproducibility Plan
 
@@ -83,20 +110,33 @@ Anyone should be able to download our repo and run it without changing anything.
 
 ### By project plan (10/22/2026)
 - Set up repo folders and submit the project-plan release (Lucas)
-
+- Write FRED and FEMA dataset descriptions and review terms of use (Sam)
+- Write NOAA dataset description and quality/cleaning constraints (Helen)
 ### By status report (11/19/2026)
 - Set up Snakefile and requirements.txt (Lucas)
 - Connect download scripts to the workflow (Lucas)
 - Test on a fresh copy and submit the status-report release (Lucas)
+- Write acquire_fred.py and acquire_fema.py to download raw data and record checksums and download dates (Sam)
+- Move the FEMA file into data/raw/ and rename it to match our naming rules (Sam)
+- Write down licenses and required citations for each source in docs/ (Sam)
+- Write acquire_noaa.py to download the NOAA temperature file (Helen)
+- Write assess_raw_quality.py to check all three sources before joining (Helen)
+- Write cleaning scripts for FRED, NOAA, and FEMA (Helen)
 
 ### By final (12/08/2026)
 - Get the whole project running with one command (Lucas)
 - Write the reproducing steps in the README (Lucas)
 - Final fresh-copy test and submit the final-project release (Lucas)
+- Check that raw file checksums still match on a fresh copy (Sam)
+- Write the data sources and ethics section of the README and final report (Sam)
+- Write assess_integrated_quality.py and save the quality report in results/ (Helen)
 
 ## Constraints
-
 - OpenFEMA data is updated continuously, so downloading it later might give a different file. We’ll save the copy we use in the repo, record the exact date we downloaded it, and include its checksum so anyone can confirm they’re using the same file.
+- FRED's terms limit sharing its data, but our plan puts raw data in a public repo. The series we use come from the BLS and are public domain, so this should be fine, but we'll double-check each one. If any series isn't public domain, we'll download it when the pipeline runs instead of saving it in the repo.
+- The FEMA file has one row per county, not per disaster, and it includes non-weather events like COVID-19 (about 7,900 rows) and U.S. territories. We'll need to filter these out and combine rows before joining.
+- NOAA doesn't have data for Hawaii or DC, and Alaska only starts in 1925. The temperature question (RQ1) will cover 49 states, while the disaster question (RQ2) can include all 50 plus DC.
+- The three sources end at different months, and the most recent numbers from FRED and NOAA are early estimates that can change later. NOAA also marks missing months with -99.90. We'll cut all sources to the same end month and treat -99.90 as missing.
 
 ## Gaps
 
