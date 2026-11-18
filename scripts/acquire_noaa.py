@@ -68,9 +68,9 @@ def sanity_check(data):
     lines = data.decode("ascii", errors="replace").splitlines()
     if len(lines) < 1000:
         raise RuntimeError(f"only {len(lines)} lines; expected several thousand")
-    bad = [i for i, l in enumerate(lines, 1) if len(l) != NOAA_LINE_LEN]
+    bad = [i for i, l in enumerate(lines, 1) if len(l) < NOAA_LINE_LEN or l[NOAA_LINE_LEN:].strip()]
     if bad:
-        raise RuntimeError(f"{len(bad)} lines are not {NOAA_LINE_LEN} characters wide (first: line {bad[0]})")
+        raise RuntimeError(f"{len(bad)} lines are shorter than {NOAA_LINE_LEN} characters or have extra text after column {NOAA_LINE_LEN} (first: line {bad[0]})")
     return len(lines)
 
 

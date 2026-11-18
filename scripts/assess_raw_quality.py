@@ -129,7 +129,7 @@ def assess_noaa():
         add(src, "completeness", "raw file found", "FAIL", f"{NOAA_RAW.name} missing")
         return
     df, bad = read_climdiv(NOAA_RAW)
-    add(src, "accuracy", "every line is 94 characters and parseable", pf(bad == 0), f"{bad} malformed lines of {len(df) + bad}")
+    add(src, "accuracy", "every line has the 94-character data layout and parses", pf(bad == 0), f"{bad} malformed lines of {len(df) + bad}")
     add(src, "consistency", "element code is 02 (average temperature) and division 0",
         pf(set(df["element"]) == {"02"} and set(df["division"]) == {"0"}),
         f"elements {sorted(set(df['element']))}, divisions {sorted(set(df['division']))}")
