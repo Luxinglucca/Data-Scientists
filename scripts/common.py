@@ -50,7 +50,7 @@ STATE_ABBRS = set(STATE_NAMES)  # 50 states + DC
 # 101-110 are multi-state regions / national and 111+ are special regions: not states.
 NOAA_STATE_CODES = {f"{i:03d}" for i in range(1, 51)}
 NOAA_MISSING = -99.90
-NOAA_LINE_LEN = 94  # 3 state + 1 division + 2 element + 4 year + 12 * 7 values
+NOAA_LINE_LEN = 94  # 3 state + 1 division + 2 element + 4 year + 12 * 7 values; NOAA pads lines with blanks after this
 
 
 # ---------------------------------------------------------------- checksums
@@ -88,7 +88,7 @@ def read_climdiv(path):
     """Parse a climdiv-*st fixed-width file.
 
     Returns (df, n_bad_lines). df has state_code, division, element, year, m01..m12 (floats).
-    Lines of the wrong length or with unparseable numbers are skipped and counted.
+    Lines shorter than 94 characters, with non-blank text after column 94, or with unparseable numbers are skipped and counted.
     """
     rows, bad = [], 0
     with open(path, encoding="ascii", errors="replace") as f:
@@ -96,6 +96,7 @@ def read_climdiv(path):
             line = line.rstrip("\r\n")
             if not line.strip():
                 continue
+            # data occupies the first 94 characters; anything after must be blank padding
             if len(line) < NOAA_LINE_LEN or line[NOAA_LINE_LEN:].strip():
                 bad += 1
                 continue
