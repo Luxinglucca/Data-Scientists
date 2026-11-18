@@ -9,16 +9,16 @@
 - Move the FEMA file into data/raw/ and rename it to match our naming rules (Sam)
 - Write down licenses and required citations for each source in docs/ (Sam)
 - Write acquire_noaa.py to download the NOAA temperature file
-  Status = Complete
-  Artifact: [acquire_noaa.py](scripts/acquire_noaa.py)
+- Status = Complete
+- Artifact: [acquire_noaa.py](scripts/acquire_noaa.py)
   
 - Write assess_raw_quality.py to check all three sources before joining
-  Status = Complete 
-  Artifact: [assess_raw_quality.py](scripts/assess_raw_quality.py)
+- Status = Complete
+- Artifact: [assess_raw_quality.py](scripts/assess_raw_quality.py)
   
 - Write cleaning scripts for FRED, NOAA, and FEMA
-  Status = Complete
-  Artifacts:
+- Status = Complete
+- Artifacts:
     - [clean_fred.py](scripts/clean_fred.py)
     - [clean_noaa.py](scripts/clean_noaa.py)
     - [clean_fema.py](scripts/clean_fema.py)
