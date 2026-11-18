@@ -1,0 +1,10 @@
+step,rows_affected,note
+lines parsed,12810,state-year records
+malformed lines skipped,0,wrong width or non-numeric
+dropped: not average temperature / not statewide,0,
+"dropped: regional, national and special-region codes",6336,
+state-months after reshape,77688,
+dropped: missing-value sentinel (-99.90),100,mostly future months of the latest year
+dropped: outside documented range,0,-50.0..140.0 F
+dropped: duplicate state-months,0,
+rows written,77588,"50 states, 1895-01 to 2026-10"

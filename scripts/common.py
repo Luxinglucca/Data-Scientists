@@ -96,7 +96,7 @@ def read_climdiv(path):
             line = line.rstrip("\r\n")
             if not line.strip():
                 continue
-            if len(line) != NOAA_LINE_LEN:
+            if len(line) < NOAA_LINE_LEN or line[NOAA_LINE_LEN:].strip():
                 bad += 1
                 continue
             try:

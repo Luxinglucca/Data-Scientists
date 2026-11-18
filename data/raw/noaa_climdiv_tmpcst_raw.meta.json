@@ -1,0 +1,10 @@
+{
+  "source_url": "https://www.ncei.noaa.gov/monitoring-content/data/us/climdiv/monthly/current/climdiv-tmpcst-v1.0.0-20261105",
+  "noaa_file_name": "climdiv-tmpcst-v1.0.0-20261105",
+  "noaa_file_version_date": "2026-11-05",
+  "downloaded_utc": "2026-11-18T04:55:29+00:00",
+  "bytes": 1255380,
+  "lines": 12810,
+  "sha256": "9a5c6adaccbf2e66e6255658e065775b22c2205902b3b392a6df643b1fa7b065",
+  "citation": "Vose, R. S., et al. (2014), NOAA Monthly U.S. Climate Divisional Database (NClimDiv), NOAA NCEI, doi:10.7289/V5M32STR"
+}

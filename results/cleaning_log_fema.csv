@@ -1,0 +1,9 @@
+step,rows_affected,note
+raw rows,70571,"5,283 distinct disasters"
+dropped: duplicate id,0,
+"dropped: missing disaster number, state or incident begin date",0,
+dropped: outside 50 states + DC,2488,PR=2116; MP=97; VI=87; AS=76; MH=53; FM=31; GU=27; PW=1
+dropped: unparseable incident begin date,0,
+dropped: incident begin date in the future or before 1948,0,
+set to missing: incident end date before begin date,2,
+rows written,68083,"5,095 distinct disasters, 1953-05 to 2026-10"
