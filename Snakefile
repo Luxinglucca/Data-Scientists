@@ -9,7 +9,7 @@
 # Raw data files (committed to the repo)
 NOAA_RAW = "data/raw/noaa_climdiv_tmpcst_raw.txt"
 NOAA_META = "data/raw/noaa_climdiv_tmpcst_raw.meta.json"
-FEMA_RAW = "data/raw/DisasterDeclarationsSummaries.csv"
+FEMA_RAW = "data/raw/fema_declarations_raw.csv"
 CHECKSUMS = "data/raw/checksums.sha256"
 
 

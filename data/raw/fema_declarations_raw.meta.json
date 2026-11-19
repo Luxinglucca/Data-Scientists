@@ -1,0 +1,15 @@
+{
+  "source_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries.csv",
+  "dataset_page": "https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2",
+  "api_endpoint": "DisasterDeclarationsSummaries",
+  "api_version": "v2",
+  "publisher": "Federal Emergency Management Agency (FEMA), U.S. Department of Homeland Security",
+  "downloaded_utc": "2026-11-19T22:27:05+00:00",
+  "fema_last_refresh": "2026-11-13T12:24:12.669Z",
+  "bytes": 25021866,
+  "rows": 70599,
+  "distinct_disasters": 5286,
+  "sha256": "2e26fef2c6c975bcc138fd0241cced637785055e473ba7781b0d0c9fe93f3776",
+  "terms_of_use": "https://www.fema.gov/about/openfema/terms-conditions",
+  "required_statement": "This product uses the Federal Emergency Management Agency's OpenFEMA API, but is not endorsed by FEMA."
+}
