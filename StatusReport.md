@@ -14,9 +14,14 @@
 
 - Test on a fresh copy and submit the status-report release (Lucas) (Status = In progress, fresh-copy test passed on Windows)
   
-- Write acquire_fred.py and acquire_fema.py to download raw data and record checksums and download dates (Sam)
-- Move the FEMA file into data/raw/ and rename it to match our naming rules (Sam)
-- Write down licenses and required citations for each source in docs/ (Sam)
+- Write acquire_fred.py and acquire_fema.py to download raw data and record checksums and download dates (Sam) (Status = Complete)
+  Artifacts:
+    - [acquire_fred.py](scripts/acquire_fred.py)
+    - [acquire_fema.py](scripts/acquire_fema.py)
+- Move the FEMA file into data/raw/ and rename it to match our naming rules (Sam) (Status = Complete)
+  Artifact: [fema_declarations_raw.csv](data/raw/fema_declarations_raw.csv)
+- Write down licenses and required citations for each source in docs/ (Sam) (Status = Complete)
+  Artifact: [data_sources_and_licenses.md](docs/data_sources_and_licenses.md)
 - Write acquire_noaa.py to download the NOAA temperature file (Status = Complete)
   Artifact: [acquire_noaa.py](scripts/acquire_noaa.py)
   
@@ -56,7 +61,9 @@
 
 Our course project plan was received very well with no comments and a perfect score That being said, we have had to move back some deadlines, particularly as they relate to building and writing out the code, to after Thanksgiving break due to our busy schedules (this is further outlined in the challenges section). 
 
-## Challenges + Planned Solutions (Yash)
+## Challenges + Planned Solutions
+- FRED's website blocked our download script at first because the script identified itself as a web browser. We changed how the script identifies itself, and all 102 series downloaded. (Sam)
+- FRED's terms of use generally restrict sharing its data. We checked and confirmed that the BLS series we use are public domain, so committing them to the repo is allowed. Any copyrighted series we add later will be downloaded when the pipeline runs instead of being committed. (Sam)
 
 **Timeliness Given Exams & Recruitment** --> One thing our team has struggled with throughout the project has been getting our schedules to align so we can come together and generate deliverables in coordination with one another rather than in a vacuum. This has been particularly difficult as we are all in the midst of a tough recruiting season and midterm season tends to line up with November / December. Mitigating this challenge, we have been highly communicative using online measures such as zoom meetings and our text groupchat, which enables us all to stay up to date and current. When we return from break as well, we plan on having multiple in-person team meetings before finals begin to iron out the remainder of the final project and ensure we are all on track to receive a good grade.
 
@@ -69,7 +76,7 @@ Our course project plan was received very well with no comments and a perfect sc
   data sources. I created acquire_noaa.py to download the NOAA temperature dataset, developed assess_raw_quality.py to
   check the FRED, NOAA, and FEMA datasets for quality issues before integration, and wrote individual cleaning scripts for
   FRED, NOAA, and FEMA to address inconsistencies and prepare the data for integration.
-- **Sam:** 
+- **Sam:** I wrote acquire_fred.py and acquire_fema.py. Fred downloaded 102 series - the unemployment rate and nonfarm employment for the 50 states and DC. Fema downloaded the disaster declarations file. Both scripts record checksums and download dates, and neither overwrites raw data that is already saved. Also renamed the FEMA file to follow our naming rules, and updated the Snakefile to match. Documented each source's license, the required citation, and FEMA's non endorsement statement in docs/. Fixed the FRED download problem from the Challenges section.
 - **Lucas:** I was responsible for the workflow and reproducibility. I set up the Snakefile so the acquire, raw quality
   assessment, and cleaning steps run in order with one command. I also made requirements.txt with pinned package versions.
   When I tested on a fresh copy of the repo on Windows, the raw data checksums didn't match because git was changing the
