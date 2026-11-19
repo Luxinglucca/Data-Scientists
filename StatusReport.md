@@ -73,6 +73,8 @@ Outside of timeline shifts, nothing has materially changed for the project, its 
 
 **Navigating Ethics** --> This is the first time in a data science course where we are being asked to properly cite and accredit all the sources for a project. Knowing this, there are numerous hurdles to ensuring our information is accurate and up to date to prevent any data violations as we build our final product. Mitigating, we plan on attending office hours to ensure our citations, disclaimers, and README section is properly formatted and up to snuff for submission. 
 
+## Modeling Methods
+
 ### Individual Team Member Contribution Summary
 - **Helen:** I was responsible for NOAA data acquisition, raw data quality assessment, and cleaning the project's three
   data sources. I created acquire_noaa.py to download the NOAA temperature dataset, developed assess_raw_quality.py to
