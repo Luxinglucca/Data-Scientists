@@ -12,7 +12,7 @@
   Artifact: [Snakefile](Snakefile)
   
 
-- Test on a fresh copy and submit the status-report release (Lucas) (Status = In progress, quick tests on fresh copies)
+- Test on a fresh copy and submit the status-report release (Lucas) (Status = In progress, fresh-copy test passed on Windows)
   
 - Write acquire_fred.py and acquire_fema.py to download raw data and record checksums and download dates (Sam)
 - Move the FEMA file into data/raw/ and rename it to match our naming rules (Sam)
