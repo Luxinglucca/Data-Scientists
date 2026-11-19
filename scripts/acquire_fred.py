@@ -30,7 +30,7 @@ URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={}"
 SUFFIXES = {"UR": "unemployment rate (percent, seasonally adjusted)",
             "NA": "all employees: total nonfarm (thousands of persons, seasonally adjusted)"}
 META = RAW_DIR / "fred_raw.meta.json"
-HEADERS = {"User-Agent": "Mozilla/5.0 (course project; data acquisition script)"}
+HEADERS = {"User-Agent": "curl/8.5.0"}
 PAUSE_SECONDS = 1.0
 CITATION = ("U.S. Bureau of Labor Statistics, {title} [{sid}], retrieved from FRED, "
             "Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/{sid}")

@@ -1,0 +1,927 @@
+{
+  "source": "FRED (Federal Reserve Economic Data), Federal Reserve Bank of St. Louis",
+  "original_publisher": "U.S. Bureau of Labor Statistics (LAUS and CES programs)",
+  "terms_of_use": "https://fred.stlouisfed.org/legal/",
+  "copyright_label": "Public Domain: Citation Requested (BLS series)",
+  "series": {
+    "AKUR": {
+      "file": "fred_akur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=AKUR",
+      "series_page": "https://fred.stlouisfed.org/series/AKUR",
+      "downloaded_utc": "2026-11-19T22:34:32+00:00",
+      "rows": 609,
+      "sha256": "399f43bf78add96d4f716af4c9156076c8afee68af2fb063ceda05d9986ab7d2"
+    },
+    "AKNA": {
+      "file": "fred_akna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=AKNA",
+      "series_page": "https://fred.stlouisfed.org/series/AKNA",
+      "downloaded_utc": "2026-11-19T22:34:35+00:00",
+      "rows": 441,
+      "sha256": "eea38f2453f128fdcc695f81cae46cedd675ce749dd8da0ade57b187b33207ac"
+    },
+    "ALUR": {
+      "file": "fred_alur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ALUR",
+      "series_page": "https://fred.stlouisfed.org/series/ALUR",
+      "downloaded_utc": "2026-11-19T22:34:37+00:00",
+      "rows": 609,
+      "sha256": "7dcb81c3f6ff851a1d5ad67f23e186dcb8a506686698271eca6405873b5742b4"
+    },
+    "ALNA": {
+      "file": "fred_alna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ALNA",
+      "series_page": "https://fred.stlouisfed.org/series/ALNA",
+      "downloaded_utc": "2026-11-19T22:34:39+00:00",
+      "rows": 441,
+      "sha256": "720a6c176690be2683ed89de9ebd0fe90fd88d89a94900fe01afb2f41630949f"
+    },
+    "ARUR": {
+      "file": "fred_arur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ARUR",
+      "series_page": "https://fred.stlouisfed.org/series/ARUR",
+      "downloaded_utc": "2026-11-19T22:34:40+00:00",
+      "rows": 609,
+      "sha256": "516cd155b167f1f10324dc24337bc73de2026ed6559832c5a06175960cae53cc"
+    },
+    "ARNA": {
+      "file": "fred_arna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ARNA",
+      "series_page": "https://fred.stlouisfed.org/series/ARNA",
+      "downloaded_utc": "2026-11-19T22:34:41+00:00",
+      "rows": 441,
+      "sha256": "dfb5053e008abd51f1d47c9f5fb735fd7f36b4b60c5b1d929882e31e92df10e2"
+    },
+    "AZUR": {
+      "file": "fred_azur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=AZUR",
+      "series_page": "https://fred.stlouisfed.org/series/AZUR",
+      "downloaded_utc": "2026-11-19T22:34:43+00:00",
+      "rows": 609,
+      "sha256": "ebbbcce46bac9ac5edbfaf103ccf27dbb63cdbfd3447d1eb32935127cb68d346"
+    },
+    "AZNA": {
+      "file": "fred_azna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=AZNA",
+      "series_page": "https://fred.stlouisfed.org/series/AZNA",
+      "downloaded_utc": "2026-11-19T22:34:44+00:00",
+      "rows": 441,
+      "sha256": "71eed79961c6c8eec4f6863d29be708e8b32bad16f5eceaa5986a3d622e79cb7"
+    },
+    "CAUR": {
+      "file": "fred_caur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CAUR",
+      "series_page": "https://fred.stlouisfed.org/series/CAUR",
+      "downloaded_utc": "2026-11-19T22:34:45+00:00",
+      "rows": 609,
+      "sha256": "c6d0011f0713b0d2eef9b0a83c897ab880799700e652fc1e3cc1c54b1cc2db2c"
+    },
+    "CANA": {
+      "file": "fred_cana_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CANA",
+      "series_page": "https://fred.stlouisfed.org/series/CANA",
+      "downloaded_utc": "2026-11-19T22:34:46+00:00",
+      "rows": 441,
+      "sha256": "f2b6a714010a991b649e40d1cc9ea40e3706ddc5216e79e37a8ecb10ce680a63"
+    },
+    "COUR": {
+      "file": "fred_cour_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=COUR",
+      "series_page": "https://fred.stlouisfed.org/series/COUR",
+      "downloaded_utc": "2026-11-19T22:34:48+00:00",
+      "rows": 609,
+      "sha256": "86dd59d2d656e4495f26c9c2dd84101d98beb6cf0ca30069fc27bb5a16df1050"
+    },
+    "CONA": {
+      "file": "fred_cona_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CONA",
+      "series_page": "https://fred.stlouisfed.org/series/CONA",
+      "downloaded_utc": "2026-11-19T22:34:49+00:00",
+      "rows": 441,
+      "sha256": "d8e3281362b9c4821a7ff92fa333b149bf055497b32079c33bb16cbe5f355a13"
+    },
+    "CTUR": {
+      "file": "fred_ctur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CTUR",
+      "series_page": "https://fred.stlouisfed.org/series/CTUR",
+      "downloaded_utc": "2026-11-19T22:34:50+00:00",
+      "rows": 609,
+      "sha256": "65f7a71df8e3bfc0fe0758bac2d0254fb12b2f05fe03c0cf0ec57d0fa1b6099c"
+    },
+    "CTNA": {
+      "file": "fred_ctna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CTNA",
+      "series_page": "https://fred.stlouisfed.org/series/CTNA",
+      "downloaded_utc": "2026-11-19T22:34:52+00:00",
+      "rows": 441,
+      "sha256": "f1c6a21010b3d8aa6b24d1d6d7d49831ee46ba389bcedb55adb103cb6f165c9f"
+    },
+    "DCUR": {
+      "file": "fred_dcur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCUR",
+      "series_page": "https://fred.stlouisfed.org/series/DCUR",
+      "downloaded_utc": "2026-11-19T22:34:53+00:00",
+      "rows": 609,
+      "sha256": "e882b80df0eaba73a90a47bb255e4686921a3509d2c460a6828c3372a25c046b"
+    },
+    "DCNA": {
+      "file": "fred_dcna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCNA",
+      "series_page": "https://fred.stlouisfed.org/series/DCNA",
+      "downloaded_utc": "2026-11-19T22:34:54+00:00",
+      "rows": 441,
+      "sha256": "6a50d42b92353b7d65c43b741065b136bcf43fd9b4dd7012aaa5f189e8ef5cad"
+    },
+    "DEUR": {
+      "file": "fred_deur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEUR",
+      "series_page": "https://fred.stlouisfed.org/series/DEUR",
+      "downloaded_utc": "2026-11-19T22:34:55+00:00",
+      "rows": 609,
+      "sha256": "e91c28d6d81ba8c811e61330fe3d14ea6d9b165fbf221a84892053e4e5ece629"
+    },
+    "DENA": {
+      "file": "fred_dena_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DENA",
+      "series_page": "https://fred.stlouisfed.org/series/DENA",
+      "downloaded_utc": "2026-11-19T22:34:57+00:00",
+      "rows": 441,
+      "sha256": "40c0be2fce72298d710017d26cbb27b4c505f8c3aa58c880e46260dad0525cde"
+    },
+    "FLUR": {
+      "file": "fred_flur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=FLUR",
+      "series_page": "https://fred.stlouisfed.org/series/FLUR",
+      "downloaded_utc": "2026-11-19T22:34:58+00:00",
+      "rows": 609,
+      "sha256": "f546d55a8744bf66dd21c8d863707bf441372eea86204e0b2b6e9dbd54bb6e6f"
+    },
+    "FLNA": {
+      "file": "fred_flna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=FLNA",
+      "series_page": "https://fred.stlouisfed.org/series/FLNA",
+      "downloaded_utc": "2026-11-19T22:34:59+00:00",
+      "rows": 441,
+      "sha256": "75e7c47332be0e2618f16054848239dc3980999bfbe620de7ad14df8f8fbce20"
+    },
+    "GAUR": {
+      "file": "fred_gaur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GAUR",
+      "series_page": "https://fred.stlouisfed.org/series/GAUR",
+      "downloaded_utc": "2026-11-19T22:35:01+00:00",
+      "rows": 609,
+      "sha256": "9b86784ae506053e32c467f0d30a518323da5a41cedc9a70e0e21855c087ff7c"
+    },
+    "GANA": {
+      "file": "fred_gana_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GANA",
+      "series_page": "https://fred.stlouisfed.org/series/GANA",
+      "downloaded_utc": "2026-11-19T22:35:02+00:00",
+      "rows": 441,
+      "sha256": "8b2e91cf22a4fb2986d72f74aec89e47c13aeac908d9c5fb4248d815ee26e475"
+    },
+    "HIUR": {
+      "file": "fred_hiur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=HIUR",
+      "series_page": "https://fred.stlouisfed.org/series/HIUR",
+      "downloaded_utc": "2026-11-19T22:35:03+00:00",
+      "rows": 609,
+      "sha256": "f7c0e4d368733d40421530fd024073670d4b764d8b15fc7f921b03ad295832d4"
+    },
+    "HINA": {
+      "file": "fred_hina_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=HINA",
+      "series_page": "https://fred.stlouisfed.org/series/HINA",
+      "downloaded_utc": "2026-11-19T22:35:04+00:00",
+      "rows": 441,
+      "sha256": "94e9a4deb49b330d09b6339f2025eb9326a99882dc088664349e9a71e96760ac"
+    },
+    "IAUR": {
+      "file": "fred_iaur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IAUR",
+      "series_page": "https://fred.stlouisfed.org/series/IAUR",
+      "downloaded_utc": "2026-11-19T22:35:06+00:00",
+      "rows": 609,
+      "sha256": "88e7e281539418a93a44f7f080eeb665af1f339f9f094ada566babfe10951400"
+    },
+    "IANA": {
+      "file": "fred_iana_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IANA",
+      "series_page": "https://fred.stlouisfed.org/series/IANA",
+      "downloaded_utc": "2026-11-19T22:35:07+00:00",
+      "rows": 441,
+      "sha256": "1ed605b716fac6776483057a0d5310d5bfff83a304d1a6e4f16e974f6a71a7e5"
+    },
+    "IDUR": {
+      "file": "fred_idur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IDUR",
+      "series_page": "https://fred.stlouisfed.org/series/IDUR",
+      "downloaded_utc": "2026-11-19T22:35:08+00:00",
+      "rows": 609,
+      "sha256": "a33e125a1fb03cbdfb2559b5e428555878d6bed8f4ccb0ed76c43a4731cff23b"
+    },
+    "IDNA": {
+      "file": "fred_idna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IDNA",
+      "series_page": "https://fred.stlouisfed.org/series/IDNA",
+      "downloaded_utc": "2026-11-19T22:35:09+00:00",
+      "rows": 441,
+      "sha256": "44bea6d77f54f156b0c75c108c3ef9edf6413957a89fb1857d44494741ed3f0e"
+    },
+    "ILUR": {
+      "file": "fred_ilur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ILUR",
+      "series_page": "https://fred.stlouisfed.org/series/ILUR",
+      "downloaded_utc": "2026-11-19T22:35:11+00:00",
+      "rows": 609,
+      "sha256": "3ade8bdac3eff12993013e17f666a99a467626fb696cdb1b76dc6780a21e3e98"
+    },
+    "ILNA": {
+      "file": "fred_ilna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ILNA",
+      "series_page": "https://fred.stlouisfed.org/series/ILNA",
+      "downloaded_utc": "2026-11-19T22:35:13+00:00",
+      "rows": 441,
+      "sha256": "bc8f8be25b1a1dd6e97797685a0840ee8d06da4a30430399413053a76f0f0bb2"
+    },
+    "INUR": {
+      "file": "fred_inur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=INUR",
+      "series_page": "https://fred.stlouisfed.org/series/INUR",
+      "downloaded_utc": "2026-11-19T22:35:14+00:00",
+      "rows": 609,
+      "sha256": "085d5c8d5a20ca1acd8d06cdaf151e9e117db1f36c657c740d35a2c2414082e2"
+    },
+    "INNA": {
+      "file": "fred_inna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=INNA",
+      "series_page": "https://fred.stlouisfed.org/series/INNA",
+      "downloaded_utc": "2026-11-19T22:35:15+00:00",
+      "rows": 441,
+      "sha256": "811c5341cef7f1714b3f9a69029f493ce6f0db06d9a4a06078dc3ac67df7770b"
+    },
+    "KSUR": {
+      "file": "fred_ksur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=KSUR",
+      "series_page": "https://fred.stlouisfed.org/series/KSUR",
+      "downloaded_utc": "2026-11-19T22:35:17+00:00",
+      "rows": 609,
+      "sha256": "07fe35715b0009429dc339df17e455263197b7d6d315e83bdc1880ac921d1358"
+    },
+    "KSNA": {
+      "file": "fred_ksna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=KSNA",
+      "series_page": "https://fred.stlouisfed.org/series/KSNA",
+      "downloaded_utc": "2026-11-19T22:35:18+00:00",
+      "rows": 441,
+      "sha256": "b31b71a6362b288c12fa246851c923594c712318369ae51f099fbd9aa8f76703"
+    },
+    "KYUR": {
+      "file": "fred_kyur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=KYUR",
+      "series_page": "https://fred.stlouisfed.org/series/KYUR",
+      "downloaded_utc": "2026-11-19T22:35:19+00:00",
+      "rows": 609,
+      "sha256": "f875c1f92f584088c43e3fd19283d38556fce8f7075f8519e822dbbf87dc340e"
+    },
+    "KYNA": {
+      "file": "fred_kyna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=KYNA",
+      "series_page": "https://fred.stlouisfed.org/series/KYNA",
+      "downloaded_utc": "2026-11-19T22:35:20+00:00",
+      "rows": 441,
+      "sha256": "ed7a704b2c167b1c0362c5ed05232d75e04d9d24fbef42dae809ee030d10cb5b"
+    },
+    "LAUR": {
+      "file": "fred_laur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=LAUR",
+      "series_page": "https://fred.stlouisfed.org/series/LAUR",
+      "downloaded_utc": "2026-11-19T22:35:22+00:00",
+      "rows": 609,
+      "sha256": "e41d9e28a769adcf0ea62563e548c597b6a05d83e192a6299462837611807ecf"
+    },
+    "LANA": {
+      "file": "fred_lana_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=LANA",
+      "series_page": "https://fred.stlouisfed.org/series/LANA",
+      "downloaded_utc": "2026-11-19T22:35:23+00:00",
+      "rows": 441,
+      "sha256": "2fabc55176570e472ed7b752ea52e5ba3092aa18e68a33407929d863f17163b2"
+    },
+    "MAUR": {
+      "file": "fred_maur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MAUR",
+      "series_page": "https://fred.stlouisfed.org/series/MAUR",
+      "downloaded_utc": "2026-11-19T22:35:24+00:00",
+      "rows": 609,
+      "sha256": "4f6768283b526bf24982f4023fd050d43bf80dad256f3f0cde780891e4e44bce"
+    },
+    "MANA": {
+      "file": "fred_mana_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MANA",
+      "series_page": "https://fred.stlouisfed.org/series/MANA",
+      "downloaded_utc": "2026-11-19T22:35:25+00:00",
+      "rows": 441,
+      "sha256": "e35a099d8a71d7f23c48aa99ee32f019a1b6b33f76753674cea6e0258397ae33"
+    },
+    "MDUR": {
+      "file": "fred_mdur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MDUR",
+      "series_page": "https://fred.stlouisfed.org/series/MDUR",
+      "downloaded_utc": "2026-11-19T22:35:27+00:00",
+      "rows": 609,
+      "sha256": "fdeb2fc4c328285ac515f6fcefc103e4ebbba4089e4cc9806eb42ba002bd3744"
+    },
+    "MDNA": {
+      "file": "fred_mdna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MDNA",
+      "series_page": "https://fred.stlouisfed.org/series/MDNA",
+      "downloaded_utc": "2026-11-19T22:35:28+00:00",
+      "rows": 441,
+      "sha256": "8f4e7bed92b1270f0c94cc05881832b354b318c9245c7e5905163dc5c69696de"
+    },
+    "MEUR": {
+      "file": "fred_meur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MEUR",
+      "series_page": "https://fred.stlouisfed.org/series/MEUR",
+      "downloaded_utc": "2026-11-19T22:35:29+00:00",
+      "rows": 609,
+      "sha256": "ce4cdd8b847b744f970a6381b30c535ea296bab37613e034b664b00163e1acd7"
+    },
+    "MENA": {
+      "file": "fred_mena_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MENA",
+      "series_page": "https://fred.stlouisfed.org/series/MENA",
+      "downloaded_utc": "2026-11-19T22:35:30+00:00",
+      "rows": 441,
+      "sha256": "83d29e0f88c12f2aed617a8bb7179d004ee544161330f7be224a5d82b2313dda"
+    },
+    "MIUR": {
+      "file": "fred_miur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MIUR",
+      "series_page": "https://fred.stlouisfed.org/series/MIUR",
+      "downloaded_utc": "2026-11-19T22:35:32+00:00",
+      "rows": 609,
+      "sha256": "8f400b124038dbbad336c6f3f9e1a03c76e35fc4b439940b17b5659e5ebe6c89"
+    },
+    "MINA": {
+      "file": "fred_mina_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MINA",
+      "series_page": "https://fred.stlouisfed.org/series/MINA",
+      "downloaded_utc": "2026-11-19T22:35:33+00:00",
+      "rows": 441,
+      "sha256": "55b13cb6ec81a118dbad2d8586148a583d108045e30568d35f7ff31ef102d469"
+    },
+    "MNUR": {
+      "file": "fred_mnur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MNUR",
+      "series_page": "https://fred.stlouisfed.org/series/MNUR",
+      "downloaded_utc": "2026-11-19T22:35:34+00:00",
+      "rows": 609,
+      "sha256": "e95ff4690bd0609993b92564db88545a0e99cb541e8d3c624cc4f60032fc2120"
+    },
+    "MNNA": {
+      "file": "fred_mnna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MNNA",
+      "series_page": "https://fred.stlouisfed.org/series/MNNA",
+      "downloaded_utc": "2026-11-19T22:35:35+00:00",
+      "rows": 441,
+      "sha256": "e8b4579ce6e7e600e3b3332054ed0eed9b3ea3cef7f077d8c0a00e9aa4c13490"
+    },
+    "MOUR": {
+      "file": "fred_mour_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MOUR",
+      "series_page": "https://fred.stlouisfed.org/series/MOUR",
+      "downloaded_utc": "2026-11-19T22:35:37+00:00",
+      "rows": 609,
+      "sha256": "f645926afae3915c7075b73bd05266d9a6d4ba1af8b7bca40d2e336d355379d8"
+    },
+    "MONA": {
+      "file": "fred_mona_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MONA",
+      "series_page": "https://fred.stlouisfed.org/series/MONA",
+      "downloaded_utc": "2026-11-19T22:35:39+00:00",
+      "rows": 441,
+      "sha256": "865ff0f22f6fe736fcc45b095a9e51e116f497242f83f9ed75999f30d20f0f5d"
+    },
+    "MSUR": {
+      "file": "fred_msur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MSUR",
+      "series_page": "https://fred.stlouisfed.org/series/MSUR",
+      "downloaded_utc": "2026-11-19T22:35:40+00:00",
+      "rows": 609,
+      "sha256": "9fa16de294931fa63bfeaf0ad6d5b27dce42210c175aff4513390be0231b4532"
+    },
+    "MSNA": {
+      "file": "fred_msna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MSNA",
+      "series_page": "https://fred.stlouisfed.org/series/MSNA",
+      "downloaded_utc": "2026-11-19T22:35:41+00:00",
+      "rows": 441,
+      "sha256": "0790118e6557ada9f616534a7dce805d5e500aaaf4d1b7cfdb71572c41844672"
+    },
+    "MTUR": {
+      "file": "fred_mtur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MTUR",
+      "series_page": "https://fred.stlouisfed.org/series/MTUR",
+      "downloaded_utc": "2026-11-19T22:35:42+00:00",
+      "rows": 609,
+      "sha256": "abccf948e4ad091bdf8fac968ffbb4116593d8c0a623cd8890efbf18492ecd10"
+    },
+    "MTNA": {
+      "file": "fred_mtna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MTNA",
+      "series_page": "https://fred.stlouisfed.org/series/MTNA",
+      "downloaded_utc": "2026-11-19T22:35:44+00:00",
+      "rows": 441,
+      "sha256": "4195124164942569b9c78e628bcda37fd0417b006aea3d0fbfde6c29fde69a6a"
+    },
+    "NCUR": {
+      "file": "fred_ncur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NCUR",
+      "series_page": "https://fred.stlouisfed.org/series/NCUR",
+      "downloaded_utc": "2026-11-19T22:35:45+00:00",
+      "rows": 609,
+      "sha256": "b07cc33f2d3f490bc9ac2340367c6e3d07f8315ccee2b037297c97086f6d4116"
+    },
+    "NCNA": {
+      "file": "fred_ncna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NCNA",
+      "series_page": "https://fred.stlouisfed.org/series/NCNA",
+      "downloaded_utc": "2026-11-19T22:35:46+00:00",
+      "rows": 441,
+      "sha256": "76d4996702e049c3a037d086d74b90866e34223cc863a99f0424f365be2c725e"
+    },
+    "NDUR": {
+      "file": "fred_ndur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NDUR",
+      "series_page": "https://fred.stlouisfed.org/series/NDUR",
+      "downloaded_utc": "2026-11-19T22:35:48+00:00",
+      "rows": 609,
+      "sha256": "8d6fce1a2897b47fec526428647f5c12664096457a92a28479ca067d6fbcb6c5"
+    },
+    "NDNA": {
+      "file": "fred_ndna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NDNA",
+      "series_page": "https://fred.stlouisfed.org/series/NDNA",
+      "downloaded_utc": "2026-11-19T22:35:49+00:00",
+      "rows": 441,
+      "sha256": "712dfedeb5970ddd625259e0233a9fc2d7d081386d9647714bd1ff0f98ff75bf"
+    },
+    "NEUR": {
+      "file": "fred_neur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NEUR",
+      "series_page": "https://fred.stlouisfed.org/series/NEUR",
+      "downloaded_utc": "2026-11-19T22:35:51+00:00",
+      "rows": 609,
+      "sha256": "dcce7a554f9e48818632b33cbdd03cad72f243b4ce86db03f717393371ce4294"
+    },
+    "NENA": {
+      "file": "fred_nena_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NENA",
+      "series_page": "https://fred.stlouisfed.org/series/NENA",
+      "downloaded_utc": "2026-11-19T22:35:53+00:00",
+      "rows": 441,
+      "sha256": "af89452ab5bb014a0eb573316e6ebfa3700f5efae2a1fdbca797b3abe34e5af7"
+    },
+    "NHUR": {
+      "file": "fred_nhur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NHUR",
+      "series_page": "https://fred.stlouisfed.org/series/NHUR",
+      "downloaded_utc": "2026-11-19T22:35:55+00:00",
+      "rows": 609,
+      "sha256": "0be87bb9dfdf1e6a1800169b42aba8cdb5a9d6ab18bc74bcf20e594106dd4d0c"
+    },
+    "NHNA": {
+      "file": "fred_nhna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NHNA",
+      "series_page": "https://fred.stlouisfed.org/series/NHNA",
+      "downloaded_utc": "2026-11-19T22:35:56+00:00",
+      "rows": 441,
+      "sha256": "969eec1a7a98834553e4de12dbdeea05ae22d9d633c4cb5e718a40a22cba2cb8"
+    },
+    "NJUR": {
+      "file": "fred_njur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NJUR",
+      "series_page": "https://fred.stlouisfed.org/series/NJUR",
+      "downloaded_utc": "2026-11-19T22:35:57+00:00",
+      "rows": 609,
+      "sha256": "110cac123f4bdb9fcf664ae207de483092cf422cba3b19a206d37bc04f982c73"
+    },
+    "NJNA": {
+      "file": "fred_njna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NJNA",
+      "series_page": "https://fred.stlouisfed.org/series/NJNA",
+      "downloaded_utc": "2026-11-19T22:35:59+00:00",
+      "rows": 441,
+      "sha256": "188ce68e89cde84ea44e0de280af5643b521fd5b3069627dc7818102d24ed990"
+    },
+    "NMUR": {
+      "file": "fred_nmur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NMUR",
+      "series_page": "https://fred.stlouisfed.org/series/NMUR",
+      "downloaded_utc": "2026-11-19T22:36:01+00:00",
+      "rows": 609,
+      "sha256": "a418b5976c87e6e99512942f4c0ecbf2b0dc83485a41318d5124ca29591ef185"
+    },
+    "NMNA": {
+      "file": "fred_nmna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NMNA",
+      "series_page": "https://fred.stlouisfed.org/series/NMNA",
+      "downloaded_utc": "2026-11-19T22:36:02+00:00",
+      "rows": 441,
+      "sha256": "3b52bfe1142814ee45faaf2ab0833f3d28a2390d98e02c1b7c611cb43b81a7b8"
+    },
+    "NVUR": {
+      "file": "fred_nvur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NVUR",
+      "series_page": "https://fred.stlouisfed.org/series/NVUR",
+      "downloaded_utc": "2026-11-19T22:36:04+00:00",
+      "rows": 609,
+      "sha256": "e6b9f4775718dd1db3dac5d3f335aa3d298acdea626d6ac6bcac227f207db3f9"
+    },
+    "NVNA": {
+      "file": "fred_nvna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NVNA",
+      "series_page": "https://fred.stlouisfed.org/series/NVNA",
+      "downloaded_utc": "2026-11-19T22:36:05+00:00",
+      "rows": 441,
+      "sha256": "e3e49b423fde4821adcb112159f9cea805fad324079f5f8ef90aaa789c4934e8"
+    },
+    "NYUR": {
+      "file": "fred_nyur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NYUR",
+      "series_page": "https://fred.stlouisfed.org/series/NYUR",
+      "downloaded_utc": "2026-11-19T22:36:06+00:00",
+      "rows": 609,
+      "sha256": "ba6b6233a58cbe3a250981341cb3ce9c2d1db9a398bb74c443d1411db9cef5ec"
+    },
+    "NYNA": {
+      "file": "fred_nyna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NYNA",
+      "series_page": "https://fred.stlouisfed.org/series/NYNA",
+      "downloaded_utc": "2026-11-19T22:36:09+00:00",
+      "rows": 441,
+      "sha256": "eaa41c2f527db6f02e18fc6119c264c75b0e38ef51eb3bf547e2fa651a2b153f"
+    },
+    "OHUR": {
+      "file": "fred_ohur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=OHUR",
+      "series_page": "https://fred.stlouisfed.org/series/OHUR",
+      "downloaded_utc": "2026-11-19T22:36:10+00:00",
+      "rows": 609,
+      "sha256": "c3032e3754cb17c707049c5a3325d2cd81b09e2682ebdffff4633938be1d2da2"
+    },
+    "OHNA": {
+      "file": "fred_ohna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=OHNA",
+      "series_page": "https://fred.stlouisfed.org/series/OHNA",
+      "downloaded_utc": "2026-11-19T22:36:12+00:00",
+      "rows": 441,
+      "sha256": "f286bd2a6e3b46859a08f12abdc07ecd5ef056af16237606638017e6ffef5233"
+    },
+    "OKUR": {
+      "file": "fred_okur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=OKUR",
+      "series_page": "https://fred.stlouisfed.org/series/OKUR",
+      "downloaded_utc": "2026-11-19T22:36:13+00:00",
+      "rows": 609,
+      "sha256": "3e315b1d2269fc362f9034659ae95330cfda02bb4e13b11df8e80ca78bece54f"
+    },
+    "OKNA": {
+      "file": "fred_okna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=OKNA",
+      "series_page": "https://fred.stlouisfed.org/series/OKNA",
+      "downloaded_utc": "2026-11-19T22:36:15+00:00",
+      "rows": 441,
+      "sha256": "b0c667cc70c2540356aafd98e07d86e6c5eeac9d093785617621c8e875be7f54"
+    },
+    "ORUR": {
+      "file": "fred_orur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ORUR",
+      "series_page": "https://fred.stlouisfed.org/series/ORUR",
+      "downloaded_utc": "2026-11-19T22:36:16+00:00",
+      "rows": 609,
+      "sha256": "3365099d86082efcb96ec945550fc1f099302632defa42750d3f2067e25098b6"
+    },
+    "ORNA": {
+      "file": "fred_orna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ORNA",
+      "series_page": "https://fred.stlouisfed.org/series/ORNA",
+      "downloaded_utc": "2026-11-19T22:36:18+00:00",
+      "rows": 441,
+      "sha256": "108fbe9f43700174d436a2c555f043c862bb56df3069422a6a1182b62c40e7d3"
+    },
+    "PAUR": {
+      "file": "fred_paur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PAUR",
+      "series_page": "https://fred.stlouisfed.org/series/PAUR",
+      "downloaded_utc": "2026-11-19T22:36:19+00:00",
+      "rows": 609,
+      "sha256": "8972df06d6ec0b1de09ec01e375eb664375bb485a7dc518fb4cd610642ca9214"
+    },
+    "PANA": {
+      "file": "fred_pana_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PANA",
+      "series_page": "https://fred.stlouisfed.org/series/PANA",
+      "downloaded_utc": "2026-11-19T22:36:20+00:00",
+      "rows": 441,
+      "sha256": "4133d88ee2dcca39b884e7de329950e92bac581d759d9478b17908ae0f363469"
+    },
+    "RIUR": {
+      "file": "fred_riur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=RIUR",
+      "series_page": "https://fred.stlouisfed.org/series/RIUR",
+      "downloaded_utc": "2026-11-19T22:36:22+00:00",
+      "rows": 609,
+      "sha256": "70c9952f84ea2470cad2a6055c8d16464db911469cacb35039dfe557c4b2fd0d"
+    },
+    "RINA": {
+      "file": "fred_rina_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=RINA",
+      "series_page": "https://fred.stlouisfed.org/series/RINA",
+      "downloaded_utc": "2026-11-19T22:36:24+00:00",
+      "rows": 441,
+      "sha256": "b233c6b0eac90f7820994f34fed481a5a20a546b47f815ec5e490674568e574a"
+    },
+    "SCUR": {
+      "file": "fred_scur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SCUR",
+      "series_page": "https://fred.stlouisfed.org/series/SCUR",
+      "downloaded_utc": "2026-11-19T22:36:25+00:00",
+      "rows": 609,
+      "sha256": "944003ca33de5f244b79e78a8cbee436bb6150c2f62bec68813b0f9fb0155498"
+    },
+    "SCNA": {
+      "file": "fred_scna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SCNA",
+      "series_page": "https://fred.stlouisfed.org/series/SCNA",
+      "downloaded_utc": "2026-11-19T22:36:26+00:00",
+      "rows": 441,
+      "sha256": "327cc0e7799b854c9f3e3a91d6f8c6eea4109a440161c2bf93a633b2e3ef31b6"
+    },
+    "SDUR": {
+      "file": "fred_sdur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SDUR",
+      "series_page": "https://fred.stlouisfed.org/series/SDUR",
+      "downloaded_utc": "2026-11-19T22:36:29+00:00",
+      "rows": 609,
+      "sha256": "1580ec9c4ed9149b4e17ed9f0d4ca5d2d220e9e7ff3659e02abbfbd1d8e93598"
+    },
+    "SDNA": {
+      "file": "fred_sdna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SDNA",
+      "series_page": "https://fred.stlouisfed.org/series/SDNA",
+      "downloaded_utc": "2026-11-19T22:36:30+00:00",
+      "rows": 441,
+      "sha256": "407dd0934ec23d1b88002698ebced7fd2b5971dcc59db0f20cd94558454984bb"
+    },
+    "TNUR": {
+      "file": "fred_tnur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TNUR",
+      "series_page": "https://fred.stlouisfed.org/series/TNUR",
+      "downloaded_utc": "2026-11-19T22:36:31+00:00",
+      "rows": 609,
+      "sha256": "4c9297a02c788734a5c99c9abe5a0dc3840283ce7cb5e0fa6382dae25fd14a31"
+    },
+    "TNNA": {
+      "file": "fred_tnna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TNNA",
+      "series_page": "https://fred.stlouisfed.org/series/TNNA",
+      "downloaded_utc": "2026-11-19T22:36:33+00:00",
+      "rows": 441,
+      "sha256": "18a1666417b54b4cca95b5f7c39ab227c39c9bfd53da6a9bd19c983942689766"
+    },
+    "TXUR": {
+      "file": "fred_txur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TXUR",
+      "series_page": "https://fred.stlouisfed.org/series/TXUR",
+      "downloaded_utc": "2026-11-19T22:36:34+00:00",
+      "rows": 609,
+      "sha256": "357b7b173691784292f67632c1c2a600fe4d6e9c3287bb9ec717261a87c5a2b8"
+    },
+    "TXNA": {
+      "file": "fred_txna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=TXNA",
+      "series_page": "https://fred.stlouisfed.org/series/TXNA",
+      "downloaded_utc": "2026-11-19T22:36:36+00:00",
+      "rows": 441,
+      "sha256": "ade5b3ec3ba4581e427c9a8e84c40bbd933451ae6ae2ba10fc514aa7a24027cc"
+    },
+    "UTUR": {
+      "file": "fred_utur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UTUR",
+      "series_page": "https://fred.stlouisfed.org/series/UTUR",
+      "downloaded_utc": "2026-11-19T22:36:37+00:00",
+      "rows": 609,
+      "sha256": "060a87b8fa18d6e18d81b8302452cd454149ee0f3ad72adb1a8a8f6a0f1e810a"
+    },
+    "UTNA": {
+      "file": "fred_utna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UTNA",
+      "series_page": "https://fred.stlouisfed.org/series/UTNA",
+      "downloaded_utc": "2026-11-19T22:36:39+00:00",
+      "rows": 441,
+      "sha256": "e5d7d0f8fe1d7fd192d7d93bf78e384a893c04734b9f22f8e794e9a0a6a70686"
+    },
+    "VAUR": {
+      "file": "fred_vaur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VAUR",
+      "series_page": "https://fred.stlouisfed.org/series/VAUR",
+      "downloaded_utc": "2026-11-19T22:36:40+00:00",
+      "rows": 609,
+      "sha256": "af90d03960f7e94e35b49b9e7d1189610361987a7a65e679e47b364ee930c16a"
+    },
+    "VANA": {
+      "file": "fred_vana_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VANA",
+      "series_page": "https://fred.stlouisfed.org/series/VANA",
+      "downloaded_utc": "2026-11-19T22:36:41+00:00",
+      "rows": 441,
+      "sha256": "77fd57361d371a1ff7f4a2ebbb495e7226492e14de08f13207c42b5b20007dde"
+    },
+    "VTUR": {
+      "file": "fred_vtur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VTUR",
+      "series_page": "https://fred.stlouisfed.org/series/VTUR",
+      "downloaded_utc": "2026-11-19T22:36:43+00:00",
+      "rows": 609,
+      "sha256": "a9bde64f4c81836db8c8e7fac046368cd2627b5a746a547927507852fd84fb2c"
+    },
+    "VTNA": {
+      "file": "fred_vtna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VTNA",
+      "series_page": "https://fred.stlouisfed.org/series/VTNA",
+      "downloaded_utc": "2026-11-19T22:36:44+00:00",
+      "rows": 441,
+      "sha256": "405e03aaa7d4c5f00b3cca68a08ff9fa89eb84ec0120d1b9c2314cd033be6f4c"
+    },
+    "WAUR": {
+      "file": "fred_waur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WAUR",
+      "series_page": "https://fred.stlouisfed.org/series/WAUR",
+      "downloaded_utc": "2026-11-19T22:36:45+00:00",
+      "rows": 609,
+      "sha256": "3b6cfe2f34ff9b56c33566e69a67ff23c820d734b277c790773fc74dedfc0303"
+    },
+    "WANA": {
+      "file": "fred_wana_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WANA",
+      "series_page": "https://fred.stlouisfed.org/series/WANA",
+      "downloaded_utc": "2026-11-19T22:36:47+00:00",
+      "rows": 441,
+      "sha256": "b403f0a81416ffeb74200a212290737b02c5a4062aa8f12510f9cf6449067183"
+    },
+    "WIUR": {
+      "file": "fred_wiur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WIUR",
+      "series_page": "https://fred.stlouisfed.org/series/WIUR",
+      "downloaded_utc": "2026-11-19T22:36:48+00:00",
+      "rows": 609,
+      "sha256": "c35c76b2ba91e2858a8fa1b361702f28ba99e6cca6b49baa12155823ba489771"
+    },
+    "WINA": {
+      "file": "fred_wina_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WINA",
+      "series_page": "https://fred.stlouisfed.org/series/WINA",
+      "downloaded_utc": "2026-11-19T22:36:49+00:00",
+      "rows": 441,
+      "sha256": "0deb522451e36d2d9bdcda3efb8b9c12ef583c24ab36a89c28edcf4fd86f1841"
+    },
+    "WVUR": {
+      "file": "fred_wvur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WVUR",
+      "series_page": "https://fred.stlouisfed.org/series/WVUR",
+      "downloaded_utc": "2026-11-19T22:36:51+00:00",
+      "rows": 609,
+      "sha256": "b394fbf0d9edbcd605a7a7c80ec021ec238ea39e4f3fe97e138380262b02668b"
+    },
+    "WVNA": {
+      "file": "fred_wvna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WVNA",
+      "series_page": "https://fred.stlouisfed.org/series/WVNA",
+      "downloaded_utc": "2026-11-19T22:36:52+00:00",
+      "rows": 441,
+      "sha256": "e7a83232a311ef821e0ebf919b76ed60f242653e7760006767bd29939a85871e"
+    },
+    "WYUR": {
+      "file": "fred_wyur_raw.csv",
+      "description": "unemployment rate (percent, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WYUR",
+      "series_page": "https://fred.stlouisfed.org/series/WYUR",
+      "downloaded_utc": "2026-11-19T22:36:54+00:00",
+      "rows": 609,
+      "sha256": "713791766f55fedad261e686f62828e8ce90fe6cca6b577f9a151f49dcd65b42"
+    },
+    "WYNA": {
+      "file": "fred_wyna_raw.csv",
+      "description": "all employees: total nonfarm (thousands of persons, seasonally adjusted)",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=WYNA",
+      "series_page": "https://fred.stlouisfed.org/series/WYNA",
+      "downloaded_utc": "2026-11-19T22:36:58+00:00",
+      "rows": 441,
+      "sha256": "752b6a6fcded6c2bcb127880cee292fb47ae6d2132b07be9bc1a79ccc9c8f472"
+    }
+  },
+  "citation_format": "U.S. Bureau of Labor Statistics, {title} [{sid}], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/{sid}"
+}
