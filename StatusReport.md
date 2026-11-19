@@ -54,10 +54,15 @@
 
 ## Changes to Project Plan Itself + Feedback from Project Plan
 
-1. 
+Our course project plan was received very well with no comments and a perfect score That being said, we have had to move back some deadlines, particularly as they relate to building and writing out the code, to after Thanksgiving break due to our busy schedules (this is further outlined in the challenges section). 
 
-## Challenges + Planned Solutions
-- 
+## Challenges + Planned Solutions (Yash)
+
+**Timeliness Given Exams & Recruitment** --> One thing our team has struggled with throughout the project has been getting our schedules to align so we can come together and generate deliverables in coordination with one another rather than in a vacuum. This has been particularly difficult as we are all in the midst of a tough recruiting season and midterm season tends to line up with November / December. Mitigating this challenge, we have been highly communicative using online measures such as zoom meetings and our text groupchat, which enables us all to stay up to date and current. When we return from break as well, we plan on having multiple in-person team meetings before finals begin to iron out the remainder of the final project and ensure we are all on track to receive a good grade.
+
+**GitHub Use** --> Our team is not entirely familiar with how to use GitHub, and we are learning as we make our way through the project. To solve this, I have personally consulted many articles on using push and pull requests through VS code, ensuring my software is up to date, and leaning on those in my group who are more experienced with the platform. Going forward, our more experienced members will be taking control of the repository, ensuring that everything is up to submission standards.
+
+**Navigating Ethics** --> This is the first time in a data science course where we are being asked to properly cite and accredit all the sources for a project. Knowing this, there are numerous hurdles to ensuring our information is accurate and up to date to prevent any data violations as we build our final product. Mitigating, we plan on attending office hours to ensure our citations, disclaimers, and README section is properly formatted and up to snuff for submission. 
 
 ### Individual Team Member Contribution Summary
 - **Helen:** I was responsible for NOAA data acquisition, raw data quality assessment, and cleaning the project's three
