@@ -75,6 +75,14 @@ Outside of timeline shifts, nothing has materially changed for the project, its 
 
 ## Modeling Methods
 
+- **Exploratory Correlation**: Through my research, I was able to learn about Pearson correlation coefficients and different types of scatterplots to identify the underlying relationships that exist between temperatures, FEMA declarations, unemployment rates, and nonfarm employment. We will also think about adding correlation lags to determine if greater correlations exist after periods following weather events.
+
+- **Temperature Anomalies**: Rather than comparing temps across states, we are considering using deviations from historical averages. This will account for geographic and seasonal differences, helping better identify true variations and drawn-out weather events.
+
+- **Disaster Impact** We plan on identifying states and linking them to months with FEMA-related disasters to compare employment changes during and after months without disaster. This may be accompanied by the same lag discussed earlier.
+
+- **Limitations**: A key challenge will be distinguishing weather-related associations from changes driven by underlying economic movements. We are exploring methodologies relating to factoring these variables in, or stripping economic variables from employment data.  
+
 ### Individual Team Member Contribution Summary
 - **Helen:** I was responsible for NOAA data acquisition, raw data quality assessment, and cleaning the project's three
   data sources. I created acquire_noaa.py to download the NOAA temperature dataset, developed assess_raw_quality.py to
@@ -86,7 +94,7 @@ Outside of timeline shifts, nothing has materially changed for the project, its 
   When I tested on a fresh copy of the repo on Windows, the raw data checksums didn't match because git was changing the
   line endings in the files. To fix this I added a .gitattributes file. I also set up the workflow so re-running it
   can't delete or re-download the raw data. Next I'm doing the full fresh-copy test and the status-report release.
-- **Yash:** 
+- **Yash:** I was responsible for the bulk of the timeline, challenges, and modeling exploration of the status report. Through my analysis, I came away with a few different ideas and potential limitations of attacking the problem, as well as discussing the challenges we have faced / anticipate to continue to face going forward. 
 
 
 
