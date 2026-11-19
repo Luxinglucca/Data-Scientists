@@ -61,6 +61,8 @@
 
 Our course project plan was received very well with no comments and a perfect score That being said, we have had to move back some deadlines, particularly as they relate to building and writing out the code, to after Thanksgiving break due to our busy schedules (this is further outlined in the challenges section). 
 
+Outside of timeline shifts, nothing has materially changed for the project, its scope, or the final result. 
+
 ## Challenges + Planned Solutions
 - FRED's website blocked our download script at first because the script identified itself as a web browser. We changed how the script identifies itself, and all 102 series downloaded. (Sam)
 - FRED's terms of use generally restrict sharing its data. We checked and confirmed that the BLS series we use are public domain, so committing them to the repo is allowed. Any copyrighted series we add later will be downloaded when the pipeline runs instead of being committed. (Sam)
