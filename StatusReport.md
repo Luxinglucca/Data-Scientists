@@ -30,8 +30,12 @@
     - [clean_fema.py](scripts/clean_fema.py)
   
 - Writer down and summarize challenges and problems we have encountered, as well as how we went about solving them (Yash)
-- Update the timeline to reflect adaptable deadlines and changing scopes (Yash)
+- Artifacts:
+    - See below
+- Update the timeline to reflect adaptable deadlines and changing scopes (Yash):
+    - See below
 - Begin exploring modeling methods and correlation analysis for final submission (Yash)
+    - See Below
 
 ## Updated Timeline
 
