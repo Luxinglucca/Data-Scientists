@@ -2,9 +2,18 @@
 
 ## Updates on Tasks (+ artifact links)
 
-- Set up Snakefile and requirements.txt (Lucas)
-- Connect download scripts to the workflow (Lucas)
-- Test on a fresh copy and submit the status-report release (Lucas)
+- Set up Snakefile and requirements.txt (Lucas) (Status = Complete)
+  Artifacts:
+    - [Snakefile](Snakefile)
+    - [requirements.txt](requirements.txt)
+    - [.gitattributes](.gitattributes)
+  
+- Connect download scripts to the workflow (Lucas) (Status = In progress, acquire_noaa.py is connected, FEMA and FRED are waiting on the download scripts)
+  Artifact: [Snakefile](Snakefile)
+  
+
+- Test on a fresh copy and submit the status-report release (Lucas) (Status = In progress, quick tests on fresh copies)
+  
 - Write acquire_fred.py and acquire_fema.py to download raw data and record checksums and download dates (Sam)
 - Move the FEMA file into data/raw/ and rename it to match our naming rules (Sam)
 - Write down licenses and required citations for each source in docs/ (Sam)
@@ -52,7 +61,11 @@
   check the FRED, NOAA, and FEMA datasets for quality issues before integration, and wrote individual cleaning scripts for
   FRED, NOAA, and FEMA to address inconsistencies and prepare the data for integration.
 - **Sam:** 
-- **Lucas:** 
+- **Lucas:** I was responsible for the workflow and reproducibility. I set up the Snakefile so the acquire, raw quality
+  assessment, and cleaning steps run in order with one command. I also made requirements.txt with pinned package versions.
+  When I tested on a fresh copy of the repo on Windows, the raw data checksums didn't match because git was changing the
+  line endings in the files. To fix this I added a .gitattributes file. I also set up the workflow so re-running it
+  can't delete or re-download the raw data. Next I'm doing the full fresh-copy test and the status-report release.
 - **Yash:** 
 
 

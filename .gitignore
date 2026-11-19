@@ -7,6 +7,7 @@ venv/
 
 # Snakemake internal state
 .snakemake/
+logs/
 
 # Secrets / local config
 .env
